@@ -1,0 +1,15 @@
+Database.
+* Add a new part number, part name, and initial quantity on hand. The
+program must print an error message if the part is already in the 
+database or if the database is full.
+
+* Given a part number, print the name of the part and the current quantity on hand.
+The program must print an error message if the part number isn't in the database.
+
+* Given a part number, change the quantity on hand. The program must print an
+error message if the part number isn't in the database.
+
+* Print a table showing all information in the database. Parts must be displayed
+in the order in which they were entered.
+
+* Terminate program execution.

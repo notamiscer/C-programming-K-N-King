@@ -1,0 +1,23 @@
+The Quicksort Algorithm
+At this point, you may wonder why we're bothering with recursion;
+after all, neither ther fact nor power really needs it. Well,
+you've got a point. Neither function makes much of a case for
+recursion, because each calls itself just once. Recursion
+is much more helpful for sophisticated algorithms that require
+a funtion to call itself two or more times.
+
+In practice, recursion often arises naturally as a result of an 
+algorithm design known as divide-and-conquer, in which a large
+problem is divided into smaller pieces that are then tackled
+by the same algorithm. A classic example of the divide=and-conquer
+strategy can be found in the popular sorting algorithm 
+known as Quicksort. The Quicksort algorithm goes as follows
+(for simplicity, we'll assume that the array being sorted is 
+indexed from 1 to n):
+
+1. Choose an array element e(the "partitioning element"), then
+rearrange the array so that elements 1,...., i - 1 are less than
+or equal to e, element i contains e, and elemnts i + 1.... n are 
+greater than or equal to e.
+
+page 205
